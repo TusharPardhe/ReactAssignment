@@ -4,10 +4,12 @@ const Left = (props) => {
   const [month, setMonth] = useState("1");
   const handleChange = (changeEvent) => {
     setMonth(changeEvent.target.value);
-    renderCards();
+    // renderCards();
   };
 
-  const renderCards = () => {};
+  const renderCards = () => {
+    let renderCards = [this.props.cards];
+  };
   return (
     <div className="col-md-12 ">
       <div className="border rounded m-4">
