@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactAssignment/static/css/main.bb3c984e.chunk.css",
+    "main.js": "/ReactAssignment/static/js/main.63cca053.chunk.js",
+    "main.js.map": "/ReactAssignment/static/js/main.63cca053.chunk.js.map",
+    "runtime-main.js": "/ReactAssignment/static/js/runtime-main.62ad5f2a.js",
+    "runtime-main.js.map": "/ReactAssignment/static/js/runtime-main.62ad5f2a.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/ReactAssignment/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.36d3b407.chunk.js": "/ReactAssignment/static/js/2.36d3b407.chunk.js",
+    "static/js/2.36d3b407.chunk.js.map": "/ReactAssignment/static/js/2.36d3b407.chunk.js.map",
+    "index.html": "/ReactAssignment/index.html",
+    "precache-manifest.8f243a4908a099f520042d4d95dff6b6.js": "/ReactAssignment/precache-manifest.8f243a4908a099f520042d4d95dff6b6.js",
+    "service-worker.js": "/ReactAssignment/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/ReactAssignment/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.bb3c984e.chunk.css.map": "/ReactAssignment/static/css/main.bb3c984e.chunk.css.map",
+    "static/js/2.36d3b407.chunk.js.LICENSE.txt": "/ReactAssignment/static/js/2.36d3b407.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62ad5f2a.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.36d3b407.chunk.js",
+    "static/css/main.bb3c984e.chunk.css",
+    "static/js/main.63cca053.chunk.js"
+  ]
+}
