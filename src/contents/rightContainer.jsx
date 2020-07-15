@@ -3,7 +3,7 @@ import Card from "./card";
 import "./roundButton.css";
 
 const Right = (props) => {
-  const spawnCard = (cardType, i, card) => {
+  const spawnCard = (cardType, card) => {
     return <Card key={cardType.variationId} card={card} cardType={cardType} />;
   };
 
@@ -14,7 +14,7 @@ const Right = (props) => {
       let card = props.cards[i];
       for (let j = 0; j < types.length; j++) {
         if (types[j].type === "default") {
-          spawnCards.push(spawnCard(types[j], i, card));
+          spawnCards.push(spawnCard(types[j], card));
         }
       }
     }

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Left from "./leftContainer";
-import Right from "./rightContainer";
 
 class Main extends Component {
   // Temporary Data until Api is made
@@ -65,14 +64,14 @@ class Main extends Component {
             <h2>Assignment</h2>
           </span>
         </nav>
-        <div className="row">
-          <div className="col-md-4 border">
-            <Left key={this.state.cards.id} cards={this.state.cards} />
-          </div>
-          <div className="col-md-8 border">
+        {/* <div className="row">
+          <div className="col-md-4 border"> */}
+        <Left key={this.state.cards.id} cards={this.state.cards} />
+        {/* </div> */}
+        {/* <div className="col-md-8 border">
             <Right key={this.state.cards.id} cards={this.state.cards} />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     );
   }
